@@ -1,0 +1,16 @@
+Cú pháp viết lệnh elif:
+if (Biểu thức 1):
+    Các lệnh (lùi vào 1 dòng)
+elif (Biểu thức 2):
+    Các lệnh (lùi vào 1 dòng)
+...
+elif (Biểu thức n):
+    Các lệnh (lùi vào 1 dòng)
+else: # Cấu trúc if elif luôn phải kết thúc với else
+    Các lệnh (lùi vào 1 dòng)
+
+Giải thích:
+    Nếu (Biểu thức 1) là đúng, thực hiện các lệnh dưới biếu thức 1, kết thúc chương trình.
+    Nếu (Biểu thức 1) là sai, kiểm tra (Biểu thức 2). Nếu (Biểu thức 2) là đúng thực hiện các lệnh dưới biếu thức 2, kết thúc chương trình
+    Tương tự trên, nếu (Biểu thức 2) là sai, kiểm tra biểu thức kế tiếp ở elif... cho đến kết thúc.
+    Khi tất cả cái Biểu thức đều sai (Biểu thức 1..n) thì thực hiện lệnh ở dưới dòng else.

@@ -1,0 +1,11 @@
+
+import operator
+
+so1 = 2
+so2 = 23432523
+pheptinh = '-'
+tong2so = so1 + so2
+chia2so = so1 / so2
+print ("Tổng 2 số là: ", tong2so)
+print ("Chia 2 số là: ", chia2so)
+

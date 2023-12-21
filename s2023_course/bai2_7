@@ -1,0 +1,16 @@
+#Điền vào toán tử logic (and, or, not) 
+#ở ô trống đánh số (1) và (2) để 
+#hoàn thành xác định tam giác với 3 
+#cạnh nhập vào dưới đây. 
+a = float(input("Nhập cạnh a: "))
+b = float(input("Nhập cạnh b: "))
+c = float(input("Nhập cạnh c: "))
+
+if (a == b) ...(1) (b == c):
+    print ("Tam giác đều")
+elif (a == b) ...(2) (b == c) ...(2) (a == c):
+    print ("Tam giác cân")
+elif (a*a == (b*b + c*c)) ...(2) (b*b == (a*a + c*c)) ...(2) (c*c == (a*a + b*b)):
+    print ("Tam giác vuông")   
+else:
+    print ("Tam giác không xác định!")

@@ -1,0 +1,21 @@
+import operator
+
+pheptinh={
+    "+": operator.add,
+    "-": operator.sub,
+    "*": operator.mul,
+    "/": operator.truediv}
+
+while(True):
+  so1 = input("Nhập số thứ nhất: ")
+  so2 = input("Nhập số thứ hai: ")
+  nhapdung = False
+  while(not nhapdung):
+    dau = input("Nhập phép tính: ")
+    try:
+      nhapdung = True
+      ketqua = pheptinh[dau](int(so1), int(so2))
+    except:
+      print ("Sai phép tính, nhập lại")
+      nhapdung = False
+  print("Kết quả phép tính", dau, "số 1 và số 2 là: ", ketqua)
